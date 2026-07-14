@@ -15,7 +15,7 @@ int main()
 	IOSET0=light1|light2|light3|light4;
 	LCD_INIT();
 	UART0_CONFIG();
-	scroll_left_to_right("AURA:HOME automation IoT based");
+	scroll_left_to_right("AURA HOME:An Integrated IoT framework for cloud based domestic automation);
 	LCD_COMMAND(0x01);
 	LCD_COMMAND(0x80);
 	LCD_STR("LIGHT_1:OFF");
